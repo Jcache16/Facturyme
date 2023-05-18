@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Facturyme</title>
+  <title>Facturyme - FAQ</title>
   <link rel="shortcut icon" href="imagenes/logoRedondo.ico" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -16,7 +16,7 @@
   <div class="border-bottom">
 		<header
 		  class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4  container">
-		  <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none ">
+		  <a href="index.php" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none ">
 			<!--Logo de cabecera-->
       <img src="imagenes/logomorado.png" alt="Logo Facturyme" height="71px" width="201px">
 		  </a>
@@ -25,10 +25,12 @@
 			<li><a href="index.php" class="nav-link px-2 link-light ">Inicio</a></li>
 			<li><a href="FAQ.php" class="nav-link px-2 link-light">FAQs</a></li>
 			<li><a href="https://www.sat.gob.mx/home" class="nav-link px-2 link-light" target="_blank">SAT</a></li>
+      <li><a href="quienesSomos.php" class="nav-link px-2 link-light">Quiénes somos</a></li>
+
 		  </ul>
 	
 		  <div class="col-md-3 text-end">
-			<a href="login.php"><button type="button" class="btn btn-primary colorFacturyme" id="botonEncabezado">Regístrate</button></a>
+			<a href="login.php"><button type="button" class="btn btn-primary colorFacturyme" id="botonEncabezado">Regístrate/Perfil</button></a>
 		  </div> 
 		</header>
   </div>
@@ -85,13 +87,7 @@
             El equipo Facturyme está compuesto por Juan Diego Ruiz Pérez, Diego Camargo Peniche
             Luis Andrés Millán López, y Jonathan Axel Valdes Salinas.
           </p>
-          <div class="image-container">
-            <img src="imagen1.jpg" alt="Imagen 1" />
-            <img src="imagen2.jpg" alt="Imagen 2" />
-            <img src="imagen3.jpg" alt="Imagen 3" />
-            <img src="imagen4.jpg" alt="Imagen 4" />
-          </div>
-        </div>
+        </div>  
       </div>
     </div>
   </div>
